@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work</title>
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./item.css">
+  <script src="./item.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      <h2>소통창고</h2>
+      <p>2024.04</p>
+      
+      <!-- Gallery -->
+      <div class="gallery">
+        <button class="arrow left-arrow" onclick="changeSlide(-1)">&#9664;</button>
+        <div class="gallery-items">
+          <img src="./images/10_1.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/10_2.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/10_3.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/10_4.png" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <div class="responsive-media gallery-item media-container">
+            <video src="./실행 영상.mp4" autoplay muted loop onclick="openInNewWindow(this.src)"></video>
+            <p class="video-duration">01:00</p>
+          </div>
+          <div class="responsive-media gallery-item media-container">
+            <video src="./comunication.mp4" autoplay muted loop onclick="openInNewWindow(this.src)"></video>
+            <p class="video-duration">00:30</p>
+          </div>
+        </div>
+        <button class="arrow right-arrow" onclick="changeSlide(1)">&#9654;</button>
+      </div>
+
+      <div class="note">
+        <p>말을 통한 텍스트와 그것이 소통되는 과정을 탐구해보고자 했다.</p>
+        <br>
+        <p>텍스트의 특성과 임시성에 주목하여, 웹사이트를 통해 말의 의미를 시각적으로 경험하고<br>공유함으로써 소통의 과정을 강조하고자 했다.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
